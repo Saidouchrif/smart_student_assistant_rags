@@ -14,7 +14,6 @@ class _MapPageState extends State<MapPage> {
   Position? userPosition;
   double? distanceKm;
 
-  // 📍 Coordinates ديال المدرسة (Université Mundiapolis – Nouaceur)
   final LatLng schoolLocation = const LatLng(33.3676, -7.5876);
 
   @override
@@ -100,7 +99,7 @@ class _MapPageState extends State<MapPage> {
                 ],
               ),
 
-              // 📍 Markers
+              //  Markers
               MarkerLayer(
                 markers: [
                   // User marker
@@ -134,7 +133,7 @@ class _MapPageState extends State<MapPage> {
             ],
           ),
 
-          // 📏 Distance Card
+          //  Distance Card
           Positioned(
             bottom: 20,
             left: 16,
